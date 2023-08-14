@@ -1,3 +1,5 @@
+package BinarySearch;
+
 public class Q744 {
     public static void main(String[] args) {
         char[] letters = {'c','f','j'};
