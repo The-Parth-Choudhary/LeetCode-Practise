@@ -1,4 +1,4 @@
-package BinarySearch;
+package Search;
 
 public class Q33 {
     public static void main(String[] args) {
