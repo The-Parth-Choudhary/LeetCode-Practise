@@ -1,4 +1,4 @@
-package Random;
+package Array;
 
 import java.util.*;
 public class Q15 {
