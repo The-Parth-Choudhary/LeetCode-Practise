@@ -1,4 +1,4 @@
-package Sets;
+package Array;
 
 import java.util.*;
 
@@ -10,10 +10,15 @@ public class Q1346 {
 
     public static boolean checkIfExist(int[] arr) {
         HashSet<Double> set = new HashSet<>();
-        for(int i=0;i<arr.length;i++){
-            if(set.contains(arr[i]*2.0) || set.contains(arr[i]/2.0)) return true;
-            else set.add(arr[i]*1.0);
+        for(int i = 0; i < arr.length; i++){
+            if(set.contains(arr[i]*2.0) || set.contains(arr[i]/2.0)) {
+                return true;
+            }
+            else {
+                set.add(arr[i] * 1.0);
+            }
         }
+
         return false;
     }
 }
